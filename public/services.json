@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "name": "REPLACE WINDSHIELD WIPERS",
+    "details": "Your car battery is one of the most important components for your vehicle to run. A car battery supplies large amounts of electrical current for the starter, engine and other electronic accessories in the vehicle. Extreme temperatures affect the performance of the battery so regular battery testing will ensure that battery will perform when you need it to.",
+    "duration": 5,
+    "price": 300,
+    "img": "https://i.ibb.co/2hJGzLK/service-1.png"
+  },
+  {
+    "id": "2",
+    "name": "OIL & FILTER",
+    "details": "The motor oil in your vehicle’s engine serves a whole slew of functions: it lubricates the moving parts, helps act as a sealant against debris, cools the engine, reduces wear and tear, and helps prevent engine corrosion. Keeping it clean is vital for good engine health. Depending on your car and what kind of oil you’re using, you may need to change both the oil & oil filter as much as every 6 months or 10,000 kilometres. Many newer vehicles’ owners’ manuals will recommend changing your oil less frequently – often in-between 8,000 and 16,000 kilometres. Check your vehicle owner’s manual and consult with a professional to be certain what is appropriate for your vehicle.",
+    "duration": 5,
+    "price": 300,
+    "img": "https://i.ibb.co/2KPtRq5/service-2.png"
+  },
+  {
+    "id": "3",
+    "name": "SPARK PLUGS",
+    "details": "The spark plugs in your engine ignite the gas and air mixture that ultimately powers your vehicle. If your spark plugs aren’t functioning properly, your engine will lose power and won’t run at optimal capacity. Have a professional check and replace any faulty spark plugs depending on vehicle manufacturer’s recommendations or when you feel a decrease in your engine’s power.",
+    "duration": 5,
+    "price": 300,
+    "img": "https://i.ibb.co/py6ZKCh/service-3.png"
+  },
+  {
+    "id": "4",
+    "name": "COOLANT FLUID EXCHANGE",
+    "details": "The radiator in your car is a vital component that helps keep your engine cool and functioning properly. Having your coolant system flushed regularly will help get rid of contaminants that can build up inside as well as ensure that your radiator is filled to a proper level. Check your vehicle manufacturer’s recommendation to find out how often your coolant should be changed.",
+    "duration": 5,
+    "price": 300,
+    "img": "https://i.ibb.co/K0NZK5y/sercvice-4.png"
+  },
+  {
+    "id": "5",
+    "name": "ROTATE TYRES",
+    "details": "Depending on your vehicle alignment, usage, and many other factors, the tread wear patterns on your tyres may vary between the front and back tyres, or even from one side of the tread to the other. Rotating your tyres will help to extend the service life of your tyres by more evenly balancing the tread wear, and helping prevent noise and vibration problems.",
+    "duration": 5,
+    "price": 300,
+    "img": "https://i.ibb.co/SdYHf5Q/service-5.png"
+  },
+  {
+    "id": "6",
+    "name": "INSPECT SHOCKS AND STRUTS",
+    "details": "The shock absorbers and struts on your car function to control the impact and rebound as your vehicle passes over bumps in the road and are an essential part of your auto’s steering system. They should be inspected by a professional every 80,000 kilometres or bring your car in to the shop if you notice a decrease in smoothness or loss of control when driving.",
+    "duration": 5,
+    "price": 300,
+    "img": "https://i.ibb.co/yftSbT8/service-6.png"
+  }
+]
