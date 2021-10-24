@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { useHistory } from "react-router";
+import { NavLink } from "react-router-dom";
 import { NavHashLink } from "react-router-hash-link";
 import useAuth from "../../hooks/useAuth";
 
@@ -31,6 +32,12 @@ const Header = () => {
             <NavHashLink className="nav-link" smooth to="/home#experts">
               Experts
             </NavHashLink>
+            <NavLink className="nav-link" smooth to="/addService">
+              Add New Service
+            </NavLink>
+            <NavLink className="nav-link" smooth to="/manageServices">
+              Manage Services
+            </NavLink>
             {user ? (
               <>
                 <Navbar.Text className="me-5">

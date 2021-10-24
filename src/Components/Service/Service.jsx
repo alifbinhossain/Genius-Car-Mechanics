@@ -3,14 +3,14 @@ import { Button, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const Service = ({ service }) => {
-  const { name, img, details, id } = service;
+  const { name, photo_url, description, _id } = service;
 
-  const url = `/service/${id}`;
+  const url = `/service/${_id}`;
   return (
     <Card>
       <Card.Img
         variant="top"
-        src={img}
+        src={photo_url}
         style={{
           height: "250px",
           objectFit: "cover",
@@ -20,7 +20,7 @@ const Service = ({ service }) => {
       <Card.Body>
         <Card.Title>{name}</Card.Title>
         <Card.Text>
-          {details.slice(0, 150)}.. <Link to={url}>see more</Link>
+          {description.slice(0, 150)}.. <Link to={url}>see more</Link>
         </Card.Text>
       </Card.Body>
     </Card>
