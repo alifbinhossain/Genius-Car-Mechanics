@@ -7,12 +7,14 @@ const AddService = () => {
   const { register, handleSubmit, reset } = useForm();
 
   const onSubmit = (data) => {
-    axios.post("http://localhost:5000/services", data).then((res) => {
-      if (res.data.insertedId) {
-        alert("Successfully added a service..");
-        reset();
-      }
-    });
+    axios
+      .post("https://immense-beach-13258.herokuapp.com/services", data)
+      .then((res) => {
+        if (res.data.insertedId) {
+          alert("Successfully added a service..");
+          reset();
+        }
+      });
   };
 
   return (
